@@ -106,8 +106,8 @@ tr.break {
 }
 
 a {
-  color: #376E67;
-  font-weight: bold;
+  color: navy;
+  font-weight: normal;
 }
 
 /* raleway-regular - latin */
@@ -137,4 +137,21 @@ footer {
   font: "Arial";
   color: #333F48;
   background-color: transparent;
+}
+
+.input-color {
+    position: relative;
+}
+.input-color input {
+    padding-left: 20px;
+    border:0;
+}
+.input-color .color-box {
+    width: 10px;
+    height: 10px;
+    display: inline-block;
+    background-color: #ccc;
+    position: absolute;
+    left: 5px;
+    top: 5px;
 }
