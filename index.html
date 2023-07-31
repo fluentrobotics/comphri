@@ -45,7 +45,7 @@
       <p><b>Course description</b>: This is an advanced course, covering computational techniques that enable robots to work with and around people. Topics will include prediction, planning, and control approaches, discussed in the context of applications like crowd navigation and collaborative manipulation. Besides algorithmic foundations, the course will explore topics in experiment design, discussing evaluation methodologies that will enable smooth deployment of robots in human environments.</p>
       <p><b>Learning objectives</b>: TBD</p>
       <p><b>Prerequisites</b>: There are no formal prerequisites but mathematical maturity (e.g., ROB 101, Math 215, IOE 265) and programming background (e.g., ROB 320 or EECS 281) are expected. A foundation on the design of human-robot systems (e.g., ROB 204) is recommended.</p>
-      <p><b>Textbook</b>: There is no official textbook. Background for most of the course components can be found in the book <i>Computational Human-Robot Interaction</i> by Thomaz, Hoffman and Cakmak (<a href="http://guyhoffman.com/publications/ThomazHoffmanCakmak16.pdf">pdf</a>). Background on probability and filtering can be found in Probabilistic Robotics by Thrun, Burgard, and Fox (<a href="http://www.probabilistic-robotics.org">pdf</a>). Additional background on planning can be found in Planning Algorithms by Lavalle (<a href="http://lavalle.pl/planning/">pdf</a>).</p> 
+      <p><b>Textbook</b>: There is no official textbook. Background for most of the course components can be found in the book <i>Computational Human-Robot Interaction</i> by Thomaz, Hoffman and Cakmak (<a href="http://guyhoffman.com/publications/ThomazHoffmanCakmak16.pdf">pdf</a>). Background on probability and filtering can be found in Probabilistic Robotics by Thrun, Burgard, and Fox (<a href="http://robots.stanford.edu/papers/thrun.probrob.pdf">pdf</a>). Additional background on planning can be found in Planning Algorithms by Lavalle (<a href="http://lavalle.pl/planning/">pdf</a>).</p> 
 
 
 
@@ -81,56 +81,67 @@
           <td>1</td>
           <td>Tue Aug 29</td>
           <td>Introduction</td>
-          <td><a href="http://guyhoffman.com/publications/ThomazHoffmanCakmak16.pdf">Computational HRI [Thomaz et al.]</a></td>
+          <td><a href="http://www.cs.cmu.edu/~thrun/papers/thrun.icra_minerva.pdf">Minerva</a>; <a href="http://guyhoffman.com/publications/ThomazHoffmanCakmak16.pdf">Computational HRI</a></td>
           <td></td>
         </tr>
         <tr>
           <td>2</td>
           <td>Thu Aug 31</td>
-          <td><font color = "crimson">Bayesian inference</td>
+          <td><font color = "crimson">Bayesian inference</td>https://people.eecs.berkeley.edu/~pabbeel/cs287-fa13/slides/bayes-filters.pdf
+          <td><a href="http://robots.stanford.edu/papers/thrun.probrob.pdf">Prob. Rob. Ch 2</a>; <a href="http://gki.informatik.uni-freiburg.de/teaching/ws0607/advanced/recordings/BayesFiltering.pdf">Bayes slides</a></td> 
+          <td>Knowledge survey due</td>              
         </tr>
         <tr>
           <td>3</td>
           <td>Tue Sep 5</td>
           <td><font color = "crimson">Filtering</a></td>
+          <td><a href="http://robots.stanford.edu/papers/thrun.probrob.pdf">Prob. Rob. Ch 4</a>; <a href="https://courses.cs.washington.edu/courses/cse571/22sp/slides/08-pf.pdf">Particle filters</a>; <a href="https://courses.cs.washington.edu/courses/cse571/12wi/slides/05-kalman.pdf">Kalman filters</a></td>               
+          <td>Team formation due</td>               
         </tr>
         <tr>
           <td>4</td>
           <td>Thu Sep 7</td>
           <td><font color = "crimson">Motion planning</td>
+          <td><a href="https://www.cs.auckland.ac.nz/courses/compsci709s2c/resources/Mike.d/astarNilsson.pdf">Heuristic search</a>; <a href="http://lavalle.pl/planning/">Sampling-based</a>; <a href="https://personalrobotics.cs.washington.edu/publications/zucker2013chomp.pdf">CHOMP</a></td>               
+          <td></td>   
         </tr>     
         <tr>
           <td>5</td>
           <td>Tue Sep 12</td>
           <td><font color = "crimson">Planning under uncertainty</td>
+          <td><a href = "https://courses.cs.washington.edu/courses/cse579/22au/Lectures/MDP_notes.pdf">MDPs</a>; <a href = "https://cs.brown.edu/research/ai/pomdp/tutorial/index.html">POMDPs</a></td>
         </tr>    
         <tr>
           <td>6</td>
           <td>Thu Sep 14</td>
-          <td><font color = "crimson">Planning under uncertainty</td>
+          <td><font color = "crimson">Model Predictive Control</td>
+          <td><a href = "https://arxiv.org/pdf/1509.01149.pdf">MPPI</a></td>
+          <td></td>
         </tr>
         <tr>
           <td>7</td>
           <td>Tue Sep 19</td>
-          <td><font color = "crimson">Feedback control</td>
+          <td><font color = "crimson">Inverse Optimal control</td>
+          <td><a href= "https://courses.cs.washington.edu/courses/cse579/22au/Lectures/IL_notes.pdf ">An invitation to imitation</a>; <a href= "http://www.cs.cmu.edu/~bziebart/publications/maximum-entropy-inverse-reinforcement-learning.pdf">MaxEnt IRL</a></td>
         </tr>  
         <tr>
           <td>8</td>
           <td>Thu Sep 21</td>
           <td><font color = "crimson">Experiment design</td>          
+          <td><a href= "https://hrc2.io/assets/pdfs/papers/HoffmanZhaoTHRI20.pdf">A primer for conducting experiments in HRI</a></td>
         </tr>  
         <tr>
           <td>9</td>
           <td>Tue Sep 26</td>
           <td><font color="#1f78b4">Social navigation</td>
-          <td><a href= "https://dl.acm.org/doi/full/10.1145/3583741">Survey on social navigation [Mavrogiannis et al.]</a></td>          
+          <td><a href= "https://dl.acm.org/doi/full/10.1145/3583741">Core challenges of social robot navigation</a></td>          
           <td>Project proposal due</td>   
         </td>
         <tr>
           <td>10</td>
           <td>Thu Sep 28</td>
           <td><font color="#1f78b4">Simulation for HRI</td>
-          <td><a href="https://apps.dtic.mil/sti/pdfs/ADA527048.pdf">Oz of Wizard [Steinfeld et al.]</a></td>
+          <td><a href="https://apps.dtic.mil/sti/pdfs/ADA527048.pdf">Oz of Wizard</a>; <a href="https://arxiv.org/abs/cond-mat/9805244">Social force model</a>; <a href="https://emprise.cs.cornell.edu/rcareworld/">RCareWorld</a></td>
         </tr>
         <tr>
           <td>11</td>
@@ -151,6 +162,7 @@
           <td>14</td>
           <td>Thu Oct 12</td>
           <td><font color="#1f78b4">Nonverbal communication</td>
+          <td>Gaze, gestures, backchanneling</td>                       
         </tr>
         <tr class="break">
           <td></td>
@@ -161,6 +173,7 @@
           <td>15</td>
           <td>Thu Oct 19</td>
           <td><font color="#1f78b4">Human-robot collaboration</td>
+          <td><a href ="https://ieeexplore.ieee.org/iel7/6679723/6696319/06696368.pdf">Collaborative manipulation</a>; <a href="https://personalrobotics.cs.washington.edu/publications/nikolaidis2017mutual.pdf">Mutual adaptation</a></td>      
         </tr>         
         <tr>
           <td>16</td>
@@ -196,6 +209,7 @@
           <td>22</td>
           <td>Tue Nov 14</td>
           <td><font color = "#EAA221">Benchmarking</td>
+          <td><a href="http://guyhoffman.com/publications/HoffmanTHMS19.pdf">Fluency</a>; <a href="https://link.springer.com/content/pdf/10.1007/s12369-008-0001-3.pdf">Godspeed</a>; <a href="https://humansystems.arc.nasa.gov/groups/TLX/">NASA TLX</a>; <a href="https://www.researchgate.net/profile/Steven-Stroessner/publication/314159812_The_Robotic_Social_Attributes_Scale_RoSAS_Development_and_Validation/links/5cd04e69458515712e95af96/The-Robotic-Social-Attributes-Scale-RoSAS-Development-and-Validation.pdf">RoSAS</a></td>
         </tr>       
         <tr>
           <td>23</td>
@@ -206,6 +220,7 @@
           <td>24</td>
           <td>Tue Nov 21</td>
           <td><font color = "#EAA221">Human-aware planning</td>
+          <td><a href="https://www.ri.cmu.edu/pub_files/2014/7/legibility_AURO14.pdf">Legibility</a>; <a href="https://ieeexplore.ieee.org/iel5/8860/4339520/04339546.pdf">Visibility</a>; <a href="https://openreview.net/pdf?id=UIaodSPHNFN">Behavioral attributes</a></td>        
         </tr>         
         <tr class="break">
           <td></td>
