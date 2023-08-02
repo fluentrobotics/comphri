@@ -20,7 +20,7 @@ body {
 }
 
 
-table,th,td,a
+table,th,td, a
 {
   border: 1px transparent;
   border-spacing: 10px;
@@ -28,12 +28,14 @@ table,th,td,a
   text-decoration: none;
   vertical-align: middle;
   background-color: transparent;
-  color: #333F48;
   font: "ralewayregular";
   font-weight: normal;
 }
 
 
+a:hover{
+  color: #FFCB05;
+}
 
 /* menu for navigation */
 #navbar ul {
@@ -55,7 +57,7 @@ table,th,td,a
 } 
 
 #navbar ul li a:hover {
-  color: #D83B31;
+  color: #FFCB05;
   vertical-align: bottom;
   text-decoration: underline;
 } 
@@ -98,7 +100,7 @@ table.program {
 }
 
 table.speakers tr, td {
-  border: 1px solid #000;
+  border: 0px solid #000;
 }
 
 tr.break {
@@ -106,7 +108,7 @@ tr.break {
 }
 
 a {
-  color: navy;
+  color: #1f78b4;
   font-weight: normal;
 }
 
@@ -145,6 +147,7 @@ footer {
 .input-color input {
     padding-left: 20px;
     border:0;
+    width: 250px;
 }
 .input-color .color-box {
     width: 10px;
