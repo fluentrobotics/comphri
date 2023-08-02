@@ -6,7 +6,7 @@ html {
   background-image: -webkit-linear-gradient(270deg,rgb(0, 39, 76) 0%,rgb(0, 39, 76) 100%);
   background-image: -ms-linear-gradient(270deg,rgb(0, 39, 76) 0%,rgb(0, 39, 76) 100%);
   -webkit-font-smoothing: antialiased;
-  font-size: 16px;
+  font-size: 14px;
 }
 
 body {
@@ -26,7 +26,7 @@ table,th,td, a
   border-spacing: 10px;
   text-align: left;
   text-decoration: none;
-  vertical-align: middle;
+  vertical-align: bottom;
   background-color: transparent;
   font: "ralewayregular";
   font-weight: normal;
