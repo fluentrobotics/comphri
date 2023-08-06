@@ -28,7 +28,7 @@
       <ul>
         <li class="index"><a href=#home target="_self">Home</a></li> 
         <li class="schedule"><a target="_self" href=#schedule>Schedule</a></li>
-        <li class="logistics"><a target="_self" href=#logistics>Logistics</a></li>                
+        <li class="syllabus"><a target="_self" href="syllabus.html">Syllabus</a></li>                
         <li class="papers"><a target="_self" href="papers.html" target="_self">Papers</a></li>      
         <li class="resources"><a target="_self" href="resources.html" target="_self">Resources</a></li>                 
       </ul>
@@ -41,9 +41,18 @@
 
       <p><b>Instructor</b>: <a href="https://chrismavrogiannis.com">Christoforos Mavrogiannis</a> (cmavro at umich dot edu)</p>
       <p><b>Lectures</b>: TuThu 15:00 - 16:30 (<a href="https://maps.studentlife.umich.edu/building/ford-robotics-building">1060 FMCRB</a>) </p>
-      <p><b>Office hours</b>: TBD </p>
-      <p><b>Course description</b>: This is an advanced course, covering computational techniques that enable robots to work with and around people. Topics will include prediction, planning, and control approaches, discussed in the context of applications like crowd navigation and collaborative manipulation. Besides algorithmic foundations, the course will explore topics in experiment design, discussing evaluation methodologies that will enable smooth deployment of robots in human environments.</p>
-      <p><b>Learning objectives</b>: TBD</p>
+      <p><b>Office hours</b>: Wednesday 11:00 (3248 FMCRB) </p>
+      <p><b>Course description</b>: This is an advanced course, covering computational techniques that enable robots to work with and around people. Topics will include estimation, planning, and control techniques, discussed in the context of applications like crowd navigation and collaborative manipulation. Besides algorithmic foundations, the course will explore topics in experiment design, discussing evaluation methodologies that will enable smooth deployment of robots in human environments. Through student-led paper presentations and a team project, students will gain exposure to the state of the art in computational HRI.</p>
+      <p><b>Learning objectives</b>: In this class, students will gain exposure to computational techniques used to develop human-robot interaction applications and systems and get familiar with the process of interpreting and presenting research. Specifically, by the end of the class, students will be able to:
+      <ul>
+        <li>Recognize and understand the components of an HRI system.</li>
+        <li>Understand the importance of accounting for users when developing algorithmic frameworks for HRI.</li>
+        <li>Understand the landscape of essential computational tools for developing HRI applications.</li>
+        <li>Design a user study to evaluate an HRI system.</li>
+        <li>Interpret and critically analyze the methodology of research papers in HRI (and beyond).</li>
+        <li>Communicate effectively research methodologies and evidence to a peer audience.</li>
+      </ul>
+      </p>
       <p><b>Prerequisites</b>: There are no formal prerequisites but mathematical maturity (e.g., ROB 101, Math 215, IOE 265) and programming background (e.g., ROB 320 or EECS 281) are expected. A foundation on the design of human-robot systems (e.g., ROB 204) is recommended.</p>
       <p><b>Textbook</b>: There is no official textbook. Background for most of the course components can be found in the book <i>Computational Human-Robot Interaction</i> by Thomaz, Hoffman and Cakmak (<a href="http://guyhoffman.com/publications/ThomazHoffmanCakmak16.pdf">pdf</a>). Background on probability and filtering can be found in Probabilistic Robotics by Thrun, Burgard, and Fox (<a href="http://robots.stanford.edu/papers/thrun.probrob.pdf">pdf</a>). Additional background on planning can be found in Planning Algorithms by Lavalle (<a href="http://lavalle.pl/planning/">pdf</a>).</p> 
 
@@ -85,14 +94,14 @@
           <td>Thu Aug 31</td>
           <td>Bayesian inference</td>
           <td><a href="http://robots.stanford.edu/papers/thrun.probrob.pdf">Prob. Rob. Ch 2</a> | <a href="http://gki.informatik.uni-freiburg.de/teaching/ws0607/advanced/recordings/BayesFiltering.pdf">Bayes slides</a></td> 
-          <td><font color="crimson">Knowledge survey due</font></td>              
+          <td><font color="crimson">Knowledge survey</font></td>              
         </tr>
         <tr>
           <td>3</td>
           <td>Tue Sep 5</td>
           <td>Filtering</td>
-          <td><a href="http://robots.stanford.edu/papers/thrun.probrob.pdf">Prob. Rob. Ch 4</a>| <a href="https://courses.cs.washington.edu/courses/cse571/22sp/slides/08-pf.pdf">Particle filters</a> | <a href="https://courses.cs.washington.edu/courses/cse571/12wi/slides/05-kalman.pdf">Kalman filters</a></td>               
-          <td><font color="crimson">Team formation due</font></td>               
+          <td><a href="http://robots.stanford.edu/papers/thrun.probrob.pdf">Prob. Rob. Ch 4</a> | <a href="https://courses.cs.washington.edu/courses/cse571/22sp/slides/08-pf.pdf">Particle filters</a> | <a href="https://courses.cs.washington.edu/courses/cse571/12wi/slides/05-kalman.pdf">Kalman filters</a></td>               
+          <td><font color="crimson">Team formation</font></td>               
         </tr>
         <tr>
           <td>4</td>
@@ -104,15 +113,15 @@
         <tr>
           <td>5</td>
           <td>Tue Sep 12</td>
-          <td>Planning under uncertainty</td>
-          <td><a href = "https://courses.cs.washington.edu/courses/cse579/22au/Lectures/MDP_notes.pdf">MDPs</a> | <a href = "https://cs.brown.edu/research/ai/pomdp/tutorial/index.html">POMDPs</a> | <a href="https://dspace.mit.edu/bitstream/handle/1721.1/112770/Rus_intentionawaremotionplanning.pdf?sequence=1&isAllowed=y">Intention-aware MP</a></td>
+          <td>Model Predictive Control</td>
+          <td><a href = "https://arxiv.org/pdf/1509.01149.pdf">MPPI</a> | <a href="https://personalrobotics.cs.washington.edu/publications/mavrogiannis2023winding.pdf">Navigation</a> | <a href="https://arxiv.org/pdf/2204.00134.pdf">Handovers</a></td>
           <td></td>          
         </tr>    
         <tr>
           <td>6</td>
           <td>Thu Sep 14</td>
-          <td>Model Predictive Control</td>
-          <td><a href = "https://arxiv.org/pdf/1509.01149.pdf">MPPI</a> | <a href="https://personalrobotics.cs.washington.edu/publications/mavrogiannis2023winding.pdf">Navigation</a> | <a href="https://arxiv.org/pdf/2204.00134.pdf">Handovers</a></td>
+          <td>Planning under uncertainty</td>
+          <td><a href = "https://courses.cs.washington.edu/courses/cse579/22au/Lectures/MDP_notes.pdf">MDPs</a> | <a href = "https://cs.brown.edu/research/ai/pomdp/tutorial/index.html">POMDPs</a> | <a href="https://dspace.mit.edu/bitstream/handle/1721.1/112770/Rus_intentionawaremotionplanning.pdf?sequence=1&isAllowed=y">Intention-aware MP</a></td>
           <td></td>
         </tr>
         <tr>
@@ -138,7 +147,7 @@
           <td>Thu Sep 28</td>
           <td>Social navigation</td>
           <td><a href= "https://arxiv.org/abs/cond-mat/9805244">Social force</a> | <a href= "https://dl.acm.org/doi/full/10.1145/3583741">Core challenges</a></td>          
-          <td><font color="crimson">Project proposal due</font></td>   
+          <td><font color="crimson">Project proposal</font></td>   
         </tr>
         <tr>
           <td>11</td>
@@ -179,7 +188,7 @@
           <td>Tue Oct 24</td>
           <td><font color = "#EAA221">Project update presentations</font></td>
           <td></td>
-          <td><font color="crimson">Project update due</font></td>
+          <td><font color="crimson">Project update</font></td>
         </tr> 
         <tr>
           <td>17</td>
@@ -202,7 +211,7 @@
           <td>20</td>
           <td>Tue Nov 7</td>
           <td>Guest: <a href="http://reuben-aronson.com/">Reuben Aronson</a></td>       
-          <td><a href="http://reuben-aronson.com/files/hri2018_aronson.pdf">Eye-hand behavior in human-robot shared manipulation</a></td>     
+          <td><a href="http://reuben-aronson.com/files/hri2018_aronson.pdf">Eye-hand behavior in shared manipulation</a></td>     
         </tr>      
         <tr>
           <td>21</td>
@@ -255,18 +264,9 @@
           <td>Mon Dec 11</td>
           <td></td>
           <td></td>
-          <td><font color="crimson">Final report due</font></td>          
+          <td><font color="crimson">Final report</font></td>          
         </tr>                                                                       
       </table>
-    </p>
-
-    <h2><a id="logistics">Logistics</a></h2>
-
-      <p><b>Grading</p>
-
-      <ul>
-        <li>TBD</li>        
-      </ul>
     </p>
 
     </div>
