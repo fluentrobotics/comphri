@@ -40,10 +40,11 @@
       <h2><a id="home"></a></h2>     
 
       <p><b>Instructor</b>: <a href="https://chrismavrogiannis.com">Christoforos Mavrogiannis</a> (cmavro at umich dot edu)</p>
+      <p><b>GSI</b>: <a href="https://www.linkedin.com/in/manoharbhat/">Manohar Bhat</a> (manubhat at umich dot edu)</p>      
       <p><b>Lectures</b>: TuTh 15:00 - 16:30 (<a href="https://maps.studentlife.umich.edu/building/ford-robotics-building">1060 FMCRB</a>) </p>
-      <p><b>Office hours</b>: Wednesday 11:00 (3248 FMCRB) </p>
+      <p><b>Office hours</b>: TBD (3248 FMCRB) </p>
       <p><b>Course description</b>: This is an advanced course, covering computational techniques that enable robots to work with and around people. Topics will include estimation, planning, and control techniques, discussed in the context of applications like crowd navigation and collaborative manipulation. Besides algorithmic foundations, the course will explore topics in experiment design, discussing evaluation methodologies that will enable smooth deployment of robots in human environments. Through student-led paper presentations and a team project, students will gain exposure to the state of the art in computational HRI.</p>
-      <p><b>Learning objectives</b>: In this class, students will gain exposure to computational techniques used to develop human-robot interaction applications and systems and get familiar with the process of interpreting and presenting research. Specifically, by the end of the class, students will be able to:
+      <p><b>Learning objectives</b>: In this class, students will gain exposure to computational techniques used to develop human-robot interaction (HRI) applications and systems and get familiar with the process of interpreting and presenting research. Specifically, by the end of the class, students will be able to:
       <ul>
         <li>Recognize and understand the components of an HRI system.</li>
         <li>Understand the importance of accounting for users when developing algorithmic frameworks for HRI.</li>
@@ -55,6 +56,7 @@
       </p>
       <p><b>Prerequisites</b>: There are no formal prerequisites but mathematical maturity (e.g., ROB 101, Math 215, IOE 265) and programming background (e.g., ROB 320 or EECS 281) are expected. A foundation on the design of human-robot systems (e.g., ROB 204) is recommended.</p>
       <p><b>Textbook</b>: There is no official textbook. Background for most of the course components can be found in the book <i>Computational Human-Robot Interaction</i> by Thomaz, Hoffman and Cakmak (<a href="http://guyhoffman.com/publications/ThomazHoffmanCakmak16.pdf">pdf</a>). Background on probability and filtering can be found in Probabilistic Robotics by Thrun, Burgard, and Fox (<a href="http://robots.stanford.edu/papers/thrun.probrob.pdf">pdf</a>). Additional background on planning can be found in Planning Algorithms by Lavalle (<a href="http://lavalle.pl/planning/">pdf</a>).</p> 
+      <p><b>Syllabus</b>: A draft of the syllabus can be found <a href="docs/comphri-umich-fall23.pdf">here</a>.</p> 
 
 
 
@@ -133,20 +135,21 @@
         <tr>
           <td>8</td>
           <td>Thu Sep 21</td>
-          <td>Experiment design</td>          
-          <td><a href= "https://hrc2.io/assets/pdfs/papers/HoffmanZhaoTHRI20.pdf">A primer for conducting experiments in HRI</a></td>
+
+          <td>Human-aware planning</td>
+          <td><a href="https://www.ri.cmu.edu/pub_files/2014/7/legibility_AURO14.pdf">Legibility</a> | <a href="https://ieeexplore.ieee.org/iel5/8860/4339520/04339546.pdf">Visibility</a> | <a href="https://proceedings.mlr.press/v164/walker22a/walker22a.pdf">Behavioral attributes</a></td>   
         </tr>  
         <tr>
           <td>9</td>
           <td>Tue Sep 26</td>
-          <td>Benchmarking</td>
-          <td><a href="http://guyhoffman.com/publications/HoffmanTHMS19.pdf">Fluency</a> | <a href="https://link.springer.com/content/pdf/10.1007/s12369-008-0001-3.pdf">Godspeed</a> | <a href="https://humansystems.arc.nasa.gov/groups/TLX/">NASA TLX</a> | <a href="https://www.researchgate.net/profile/Steven-Stroessner/publication/314159812_The_Robotic_Social_Attributes_Scale_RoSAS_Development_and_Validation/links/5cd04e69458515712e95af96/The-Robotic-Social-Attributes-Scale-RoSAS-Development-and-Validation.pdf">RoSAS</a></td>  
+          <td>Experiment design</td>          
+          <td><a href= "https://hrc2.io/assets/pdfs/papers/HoffmanZhaoTHRI20.pdf">A primer for conducting experiments in HRI</a></td>
         </td>
         <tr>
           <td>10</td>
           <td>Thu Sep 28</td>
-          <td>Social navigation</td>
-          <td><a href= "https://arxiv.org/abs/cond-mat/9805244">Social force</a> | <a href= "https://dl.acm.org/doi/full/10.1145/3583741">Core challenges</a></td>          
+          <td>Benchmarking</td>         
+          <td><a href="http://guyhoffman.com/publications/HoffmanTHMS19.pdf">Fluency</a> | <a href="https://link.springer.com/content/pdf/10.1007/s12369-008-0001-3.pdf">Godspeed</a> | <a href="https://humansystems.arc.nasa.gov/groups/TLX/">NASA TLX</a> | <a href="https://www.researchgate.net/profile/Steven-Stroessner/publication/314159812_The_Robotic_Social_Attributes_Scale_RoSAS_Development_and_Validation/links/5cd04e69458515712e95af96/The-Robotic-Social-Attributes-Scale-RoSAS-Development-and-Validation.pdf">RoSAS</a></td>          
           <td><font color="crimson">Project proposal</font></td>   
         </tr>
         <tr>
@@ -163,13 +166,14 @@
         <tr>
           <td>13</td>
           <td>Tue Oct 10</td>
-          <td>HRI highlights from <a href="https://ieee-iros.org">IROS</a></td>           
+          <td>Social navigation</td>
+          <td><a href= "https://arxiv.org/abs/cond-mat/9805244">Social force</a> | <a href= "https://dl.acm.org/doi/full/10.1145/3583741">Core challenges</a></td>  
+          <!-- <td>HRI highlights from <a href="https://ieee-iros.org">IROS</a></td>            -->
         </td>
         <tr>
           <td>14</td>
           <td>Thu Oct 12</td>
-          <td>Human-aware planning</td>
-          <td><a href="https://www.ri.cmu.edu/pub_files/2014/7/legibility_AURO14.pdf">Legibility</a> | <a href="https://ieeexplore.ieee.org/iel5/8860/4339520/04339546.pdf">Visibility</a> | <a href="https://proceedings.mlr.press/v164/walker22a/walker22a.pdf">Behavioral attributes</a></td>    
+          <td><font color = "#EAA221">Paper presentations</font></td>          
         </tr>
         <tr class="break">
           <td></td>
@@ -269,6 +273,9 @@
         </tr>                                                                       
       </table>
     </p>
+
+    <p><b>Acknowledgements</b>: This class was inspired by prior HRI classes at <a href="http://www.stefanosnikolaidis.net/comphri2022">USC</a>, <a href="http://hriclass.com">Cornell</a>, and <a href="https://people.eecs.berkeley.edu/~anca/AHRI.html">Berkeley</a>.</p> 
+
 
     </div>
         <hr style="width:94%;margin-left:0">
