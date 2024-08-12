@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>ROB 498 /599: Computational Human-Robot Interaction</title>
+    <meta name="description" content="Michigan Computational Human-Robot Interaction course">
+    <meta name="author" content="Christoforos Mavrogiannis">
+    <link rel="stylesheet" href="default.css">
+    <base target="_blank">
+    <link rel="icon" type="image/jpg" href="images/favicon.ico">    
+  </head>
+  
+  <body class="program">
+    
+    <div class="page_content">
+
+    <table>
+      <tr>
+        <th>
+          <h1>ROB 498 /599: Computational Human-Robot Interaction Fall 2023</h1>
+        </th>
+      </tr>
+    </table>
+    <hr style="width:94%;margin-left:0">
+
+    <div id="navbar">
+      <ul>
+        <li class="index"><a target="_self" href="index">Home</a></li> 
+        <li class="schedule"><a target="_self" href="schedule" style = "color : #00274c"><b>Schedule</b></a></li>
+        <li class="syllabus"><a target="_self" href="instructions">Instructions</a></li>                
+        <li class="papers"><a target="_self" href="papers" target="_self">Papers</a></li>      
+        <li class="resources"><a target="_self" href="resources" target="_self">Resources</a></li>                 
+      </ul>
+    </div>
+    <hr style="width:94%;margin-left:0">
+
+    <div class="page_content">
+
+<!--       <div class="input-color"; style =" float:left; caret-color: transparent">
+            <input value="Instructor lectures" />
+            <div class="color-box" style="background-color: crimson;"></div>
+      </div> -->
+
+
+
+
+      <p><b>Note</b>: the schedule is subject to change. Please check back here and on Piazza for updates.</p>
+
+
+      <table class="program">
+        <tr class="break">
+          <td>#</td>
+          <td style="min-width:100px">Date</td>
+          <td style="min-width:120px">Topic</td>
+          <td>Reading</td>        
+          <td>Deadlines</td>                      
+        </tr>
+        <tr>
+          <td>1</td>
+          <td>Tue Aug 29</td>
+          <td>Introduction</td>
+          <td><a href="http://www.cs.cmu.edu/~thrun/papers/thrun.icra_minerva.pdf">Minerva</a> | <a href="http://guyhoffman.com/publications/ThomazHoffmanCakmak16.pdf">Computational HRI</a></td>
+          <td></td>
+        </tr>
+        <tr>
+          <td>2</td>
+          <td>Thu Aug 31</td>
+          <td>Bayesian inference</td>
+          <td><a href="https://github.com/edward-wq/books/blob/master/Probabilistic%20Robotics.pdf">Prob. Rob. Ch 2</a> | <a href="http://gki.informatik.uni-freiburg.de/teaching/ws0607/advanced/recordings/BayesFiltering.pdf">Bayes slides</a></td> 
+          <td><font color="crimson">Knowledge survey</font></td>              
+        </tr>
+        <tr>
+          <td>3</td>
+          <td>Tue Sep 5</td>
+          <td>Filtering</td>
+          <td><a href="https://github.com/edward-wq/books/blob/master/Probabilistic%20Robotics.pdf">Prob. Rob. Ch 3, 4</a> | <a href="https://courses.cs.washington.edu/courses/cse571/22sp/slides/08-pf.pdf">Particle filters</a> | <a href="https://courses.cs.washington.edu/courses/cse571/12wi/slides/05-kalman.pdf">Kalman filters</a></td>               
+          <td><font color="crimson">Team formation</font></td>               
+        </tr>
+        <tr>
+          <td>4</td>
+          <td>Thu Sep 7</td>
+          <td>Motion planning</td>
+          <td><a href="https://www.cs.auckland.ac.nz/courses/compsci709s2c/resources/Mike.d/astarNilsson.pdf">Heuristic search</a> | <a href="http://lavalle.pl/planning/">Sampling-based</a> | <a href="https://personalrobotics.cs.washington.edu/publications/zucker2013chomp.pdf">CHOMP</a></td>               
+          <td></td>   
+        </tr>     
+        <tr>
+          <td>5</td>
+          <td>Tue Sep 12</td>
+          <td>Model Predictive Control</td>
+          <td><a href = "https://arxiv.org/pdf/1509.01149.pdf">MPPI</a> | <a href="https://personalrobotics.cs.washington.edu/publications/mavrogiannis2023winding.pdf">Navigation</a> | <a href="https://arxiv.org/pdf/2204.00134.pdf">Handovers</a></td>
+          <td></td>          
+        </tr>    
+        <tr>
+          <td>6</td>
+          <td>Thu Sep 14</td>
+          <td>Planning under uncertainty</td>
+          <td><a href = "https://courses.cs.washington.edu/courses/cse579/22au/Lectures/MDP_notes.pdf">MDPs</a> | <a href = "https://cs.brown.edu/research/ai/pomdp/tutorial/index.html">POMDPs</a> | <a href="https://dspace.mit.edu/bitstream/handle/1721.1/112770/Rus_intentionawaremotionplanning.pdf?sequence=1&isAllowed=y">Intention-aware MP</a></td>
+          <td></td>
+        </tr>
+        <tr>
+          <td>7</td>
+          <td>Tue Sep 19</td>
+          <td>Learning from demonstration</td>
+          <td><a href= "https://courses.cs.washington.edu/courses/cse579/22au/Lectures/IL_notes.pdf ">Invitation to imitation</a> | <a href= "https://www.ri.cmu.edu/pub_files/2009/10/planning-based-prediction-pedestrians.pdf">Prediction</a> | <a href="http://ais.informatik.uni-freiburg.de/publications/papers/kretzschmar16ijrr.pdf">Navigation</a></td>
+        </tr>  
+<!--         <tr>
+          <td>8</td>
+          <td>Thu Sep 21</td>
+          <td>Nonverbal communication</td>
+          <td><a href="https://www.ri.cmu.edu/pub_files/2014/7/legibility_AURO14.pdf">Legibility</a> | <a href="https://ieeexplore.ieee.org/iel5/8860/4339520/04339546.pdf">Visibility</a> | <a href="https://proceedings.mlr.press/v164/walker22a/walker22a.pdf">Behavioral attributes</a></td>   
+        </tr>  --> 
+        <tr>
+          <td>8</td>
+          <td>Thu Sep 21</td>
+          <td>Project-based discussion</td>
+          <td><a href="https://arxiv.org/abs/cond-mat/9805244">Social force</a> | <a href="https://proceedings.mlr.press/v164/wang22e.html">Groups</a> | <a href="https://arxiv.org/abs/1503.07619">Shared autonomy</a> | <a href="https://arxiv.org/abs/2007.12952">Handovers</a></td>   
+        </tr>  
+        <tr>
+          <td>9</td>
+          <td>Tue Sep 26</td>
+          <td>Experiment design</td>          
+          <td><a href= "https://hrc2.io/assets/pdfs/papers/HoffmanZhaoTHRI20.pdf">A primer for conducting experiments in HRI</a></td>
+        </td>
+        <tr>
+          <td>10</td>
+          <td>Thu Sep 28</td>
+          <td>Benchmarking</td>         
+          <td><a href="http://guyhoffman.com/publications/HoffmanTHMS19.pdf">Fluency</a> | <a href="https://link.springer.com/content/pdf/10.1007/s12369-008-0001-3.pdf">Godspeed</a> | <a href="https://humansystems.arc.nasa.gov/groups/TLX/">NASA TLX</a> | <a href="https://www.researchgate.net/profile/Steven-Stroessner/publication/314159812_The_Robotic_Social_Attributes_Scale_RoSAS_Development_and_Validation/links/5cd04e69458515712e95af96/The-Robotic-Social-Attributes-Scale-RoSAS-Development-and-Validation.pdf">RoSAS</a></td>          
+          <td><font color="crimson">Proposal due 10/1</font></td>   
+        </tr>
+        <tr>
+          <td>11</td>
+          <td>Tue Oct 3</td>
+          <td>Mapping (Manohar Bhat)</td>     
+          <td>Prob. Rob. Ch 9 | <a href="http://ais.informatik.uni-freiburg.de/teaching/ws13/mapping/pdf/slam05-ekf-slam.pdf">EKF SLAM</a> | <a href="http://ais.informatik.uni-freiburg.de/teaching/ws13/mapping/pdf/slam12-fastslam.pdf">FastSLAM</a></tr>  
+        <tr>
+          <td>12</td>
+          <td>Thu Oct 5</td>
+          <td>SLAM (Manohar Bhat)</td>     
+          <td><a href="https://gtsam.org/tutorials/intro.html">Factor graphs / GTSAM tutorial</a></td> </td>   
+        </tr>
+        <tr>
+          <td>13</td>
+          <td>Tue Oct 10</td>
+          <td>Social navigation</td>
+          <td><a href= "https://arxiv.org/abs/cond-mat/9805244">Social force</a> | <a href= "https://dl.acm.org/doi/full/10.1145/3583741">Core challenges</a></td>  
+          <!-- <td>HRI highlights from <a href="https://ieee-iros.org">IROS</a></td>            -->
+        </td>
+        <tr>
+          <td style = "vertical-align: middle">14</td>
+          <td style = "vertical-align: middle">Thu Oct 12</td>
+          <td colspan = "3"> <a href="https://citeseerx.ist.psu.edu/document?repid=rep1&type=pdf&doi=0595d16fca09a3979ccd2222b094e4b72755e780">Reciprocal n-body collision avoidance</a> <br>Main: Gurnoor, Tisha, Jacob; Con: Yifan, Robin, Nithish <br> <a href="https://www.cc.gatech.edu/social-machines/papers/akgun12_hri_keyframes.pdf">Trajectories and Keyframes for Kinesthetic Teaching: A Human-Robot Interaction Perspective</a><br>Main: Sagar, Kajal; Con: Ruihan</td>
+        </tr>
+        <tr class="break">
+          <td></td>
+          <td>Tue Oct 17</td>
+          <td>No class - Fall study break</td>
+          <td></td>
+          <td></td>
+        </tr> 
+        <tr>
+          <td style = "vertical-align: middle">15</td>
+          <td style = "vertical-align: middle">Thu Oct 19</td>
+          <td colspan = "3"> <a href="https://journals.plos.org/plosone/article/file?id=10.1371/journal.pone.0010047&type=printable">The Walking Behaviour of Pedestrian Social Groups and Its Impact on Crowd Dynamics</a> <br>Main: Yifan, Robin, Nithish; Con: Gurnoor, Tisha, Jacob<br> <a href="https://personalrobotics.cs.washington.edu/publications/strabala2013handoff.pdf">Toward Seamless Human–Robot Handovers</a><br>Main: Ruihan; Con: Sagar, Kajal</td>
+        </tr>        
+        <tr>
+          <td style = "vertical-align: middle">16</td>
+          <td style = "vertical-align: middle">Tue Oct 24</td>
+          <td colspan = "3"> <a href="https://dl.acm.org/doi/abs/10.1145/3583741">Core challenges of social robot navigation: A survey</a> <br>Main: Gurnoor, Tisha, Jacob; Con: Sagar, Kajal<br> <a href="https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=8594258">Human Motion Prediction Under Social Grouping Constraints</a><br>Main: Yifan, Robin, Nithish; Con: Ruihan</td>
+        </tr> 
+        <tr>
+          <td>17</td>
+          <td>Thu Oct 26</td>
+          <td><b>Guest</b>: <a href="https://jessethomason.com/">Jesse Thomason</a></td>       
+          <td><a href="https://progprompt.github.io">ProgPrompt: Generating Robot Plans using LLMs</a></td>  
+        </tr>     
+        <tr>
+          <td style = "vertical-align: middle">18</td>
+          <td style = "vertical-align: middle">Tue Oct 31</td>
+          <td><font color = "#EAA221">Project update presentations</font></td>
+          <td></td>
+          <td><font color="crimson">Project update</font></td>
+        </tr>     
+        <tr>
+          <td style = "vertical-align: middle">19</td>
+          <td style = "vertical-align: middle">Thu Nov 2</td>
+          <td colspan = "3"> <a href="https://browse.arxiv.org/pdf/2109.00137.pdf">Implicit behavioral cloning</a> <br>Main: Sagar, Kajal; Con: Gurnoor, Tisha, Jacob<br> <a href="https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=6343844">Sharing effort in planning human-robot handover tasks</a><br>Main: Ruihan; Con: Yifan, Robin, Nithish</td>
+        </tr>     
+        <tr>
+          <td>20</td>
+          <td>Tue Nov 7</td>
+          <td><b>Guest</b>: <a href="http://reuben-aronson.com/">Reuben Aronson</a></td>       
+          <td><a href="http://reuben-aronson.com/files/hri2018_aronson.pdf">Eye-hand behavior in shared manipulation</a></td>     
+        </tr>      
+       <tr>
+          <td style = "vertical-align: middle">21</td>
+          <td style = "vertical-align: middle">Thu Nov 9</td>
+          <td colspan = "3"> <a href="https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=8954815">From crowd simulation to robot navigation in crowds</a> <br>Main: Gurnoor, Tisha, Jacob; Con: Ruihan<br> <a href="https://proceedings.mlr.press/v164/wang22e/wang22e.pdf">Group-based motion prediction for robot navigation in crowds</a><br>Main: Yifan, Robin, Nithish; Con: Sagar, Kajal</td>
+        </tr>  
+       <tr>
+          <td style = "vertical-align: middle">22</td>
+          <td style = "vertical-align: middle">Tue Nov 14</td>
+          <td><font color = "#EAA221">Project clinic: project discussion & feedback</font></td>
+        </tr>        
+       <tr>
+          <td style = "vertical-align: middle">23</td>
+          <td style = "vertical-align: middle">Thu Nov 16</td>
+          <td colspan = "3"> <a href="https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=9812109">Model predictive control for fluid human to robot handovers</a> <br>Main: Ruihan; Con: Gurnoor, Tisha, Jacob<br> <a href="https://browse.arxiv.org/pdf/2206.11251.pdf">Behavior Transformers: Cloning k modes with one stone</a><br>Main: Sagar, Kajal; Con: Yifan, Robin, Nithish</td>
+        </tr>        
+       <tr>
+          <td style = "vertical-align: middle">24</td>
+          <td style = "vertical-align: middle">Tue Nov 21</td>
+          <td colspan = "3"> <a href="https://diglib.eg.org/bitstream/handle/10.1111/cgf142664/v40i2pp731-754.pdf">Algorithms for Microscopic Crowd Simulation: Advancements in the 2010s</a> <br>Main: Gurnoor, Tisha, Jacob; Con: Yifan, Robin, Nithish<br> <a href="https://www.roboticsproceedings.org/rss11/p31.pdf">Adaptive Coordination Strategies for Human-Robot Handovers</a><br>Main: Ruihan; Con: Sagar, Kajal</td>
+        </tr>        
+        <tr class="break">
+          <td></td>
+          <td>Thu Nov 23</td>
+          <td>No class - Thanksgiving break</td>
+          <td></td>
+          <td></td>
+        </tr>      
+        <tr>
+          <td style = "vertical-align: middle">25</td>
+          <td style = "vertical-align: middle">Tue Nov 28</td>
+          <td colspan = "3"> <a href="https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=9981183">Learning a group-aware policy for robot navigation</a> <br>Main: Yifan, Robin, Nithish; Con: Gurnoor, Tisha, Jacob<br> <a href="https://rail.gatech.edu/assets/files/2019_LfD_Survey_preprint.pdf">Recent Advances in Robot Learning from Demonstration</a><br>Main: Sagar, Kajal; Con: Ruihan</td>
+        </tr>    
+        <tr>
+          <td>26</td>
+          <td>Thu Nov 30</td>
+          <td>Q&A and feedback on report/presentations</td>
+          <td></td>
+        </tr> 
+        <tr>
+          <td>27</td>
+          <td>Tue Dec 5</td>
+          <td><font color = "#EAA221">Final project presentations</font></td>
+          <td></td>
+          <td></td>
+        </tr>      
+        <tr class="break">
+          <td></td>
+          <td>Mon Dec 11</td>
+          <td></td>
+          <td></td>
+          <td><font color="crimson">Final report</font></td>          
+        </tr>                                                                       
+      </table>
+    </p>
+
+<!--       <div class="input-color"; style =" float:left; caret-color: transparent">
+            <input type="text" value="Student presentations and discussion" />
+            <div class="color-box" style="background-color: #EAA221;"></div>
+      </div>      
+      <div class="input-color"; style =" float:left; caret-color: transparent">
+            <input type="text" value="Deliverables (see instructions)" />
+            <div class="color-box" style="background-color: crimson;"></div>
+      </div> -->
+
+    </div>
+        <hr style="width:94%;margin-left:0">
+
+    <table>
+      <tr>
+        <th>
+          <a href="https://robotics.umich.edu/"><img src="images/MRobotics_informal_outlines_digital.svg" height="32" class="footer"/></a>
+        </th>
+      </tr>
+    </table>
+
+    <div id="text">
+          &#169; 2023 Christoforos Mavrogiannis <br>
+    </div>  
+
+  </body>
+</html>
